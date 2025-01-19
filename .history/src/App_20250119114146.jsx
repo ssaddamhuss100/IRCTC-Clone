@@ -2,16 +2,17 @@ import React, { useEffect } from "react";
 import Homepage from "./pages/Homepage/Homepage";
 import Login from "./pages/Login/Login";
 import Register from "./pages/Register/Register";
-import Header from "./components/Header/Header";
-
+import ClassBasedComponent from "./pages/ClassBasedComponent";
+import FunctionalComponent from "./pages/FunctionalComponent";
 
 const App = () => {
   return (
     <div>
-      {/* <Header/> */}
       <Homepage/>
       <Login/>
-      <Register/>
+      {/* <ClassBasedComponent initialCount = {10} />
+      <hr />
+      <FunctionalComponent  initialCount = {10} /> */}
     </div>
   );
 };

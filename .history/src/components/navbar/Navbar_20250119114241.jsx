@@ -1,7 +1,5 @@
 import React from "react";
 import "./Navbar.css";
-import Login from "../../pages/Login/Login";
-import Register from "../../pages/Register/Register";
 
 const Navbar = () => {
   return (
@@ -12,7 +10,7 @@ const Navbar = () => {
           <a href="/">Home</a>
         </li>
         <li>
-          <a href="/login">Login</a>
+          <a href="/login"><</a>
         </li>
         <li>
           <a href="/register">Register</a>
